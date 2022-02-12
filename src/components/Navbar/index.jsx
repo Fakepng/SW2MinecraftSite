@@ -14,8 +14,8 @@ const Navbar = () => {
                 <NavLink className="navlogo" to="/" exact='true'><img src="/images/server-icon.png" height="60px" alt="Sw2"/></NavLink>
                 <header className="navbar">
                     <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/' exact='true'>Home</NavLink></div>
-                    <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/about'>Skin</NavLink></div>
-                    <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/education'>About US</NavLink></div>
+                    <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/skin'>Skin</NavLink></div>
+                    <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/about-us'>About US</NavLink></div>
                 </header>
                 <div className='MobileDiv' onClick={handleClick}>{
                     click ? <AiOutlineClose className='MobileBar' /> : <FaBars className='MobileBar' />
@@ -23,8 +23,8 @@ const Navbar = () => {
             </div>
             <div className={click ? 'Mobile' : 'MobileClose'}>
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/' exact='true'>Home</NavLink>
-                <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/about'>Skin</NavLink>
-                <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/education'>About</NavLink>
+                <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/skin'>Skin</NavLink>
+                <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/about-us'>About US</NavLink>
             </div>
         </>
     )
