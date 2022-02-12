@@ -1,0 +1,43 @@
+.SkinTitle {
+    text-align: center;
+    color: #000;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 4rem;
+}
+
+.Skin {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    max-width: 1600px;
+    text-align: center;
+    margin: 0 auto;
+    grid-gap: 40px;
+    padding-bottom: 60px;
+}
+
+.SkinName {
+    font-size: 2rem;
+}
+
+.SkinCard {
+    background-color: #ccc;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .Skin {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Skin {
+        grid-template-columns: 1fr;
+    }
+}
+
+.SkinImg {
+    padding: 10px;
+}

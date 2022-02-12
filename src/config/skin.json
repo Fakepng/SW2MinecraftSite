@@ -1,0 +1,110 @@
+[
+    {
+        "id": "1",
+        "name": "ชุดนักเรียนชาย",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    },
+    {
+        "id": "2",
+        "name": "ชุดนักเรียนหญิงปลาย",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    },
+    {
+        "id": "3",
+        "name": "ชุดนักเรียนหญิงต้น",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    },
+    {
+        "id": "4",
+        "name": "ชุดพละชาย",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    },
+    {
+        "id": "5",
+        "name": "ชุดพละหญิง",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    },
+    {
+        "id": "6",
+        "name": "ชุดรด",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    },
+    {
+        "id": "7",
+        "name": "ชุดนนทรีชาย",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    },
+    {
+        "id": "8",
+        "name": "ชุดนนทรีหญิง",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    },
+    {
+        "id": "9",
+        "name": "ชุดจามจุรีชาย",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    },
+    {
+        "id": "10",
+        "name": "ชุดจามจุรีหญิง",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    },
+    {
+        "id": "11",
+        "name": "ชุดราชาวิดีชาย",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    },
+    {
+        "id": "12",
+        "name": "ชุดราชาวิดีหญิง",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    },
+    {
+        "id": "13",
+        "name": "ชุดยูงทองชาย",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    },
+    {
+        "id": "14",
+        "name": "ชุดยูงทองหญิง",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    },
+    {
+        "id": "15",
+        "name": "ชุดนิโลบลชาย",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    },
+    {
+        "id": "16",
+        "name": "ชุดนิโลบลหญิง",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    },
+    {
+        "id": "17",
+        "name": "ชุดข้าราชการชาย",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    },
+    {
+        "id": "18",
+        "name": "ชุดข้าราชการหญิง",
+        "img": "https://minotar.net/armor/body/user/100.png",
+        "cmd": "/skin https://minotar.net/armor/body/user/100.png"
+    }
+]
