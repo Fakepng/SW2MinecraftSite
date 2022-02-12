@@ -25,7 +25,7 @@
 }
 
 .navbox {
-    padding-left:  8rem;
+    padding-left:  1rem;
 }
 
 .navlink {
@@ -35,7 +35,7 @@
     padding: 10px 20px;
     border-radius: 15px;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .navlink:hover {
