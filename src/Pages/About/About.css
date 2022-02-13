@@ -24,6 +24,7 @@
 .AboutCard {
     background-color: #ccc;
     border-radius: 15px;
+    width: 500px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -40,4 +41,23 @@
 
 .AboutImg {
     padding: 10px;
+}
+
+.AboutCmd {
+    display: flex;
+    background-color: #eee;
+    height: 4rem;
+    font-size: 2rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-x: scroll;
+    padding: 0rem 1rem;
+    align-items: center;
+    border-radius: 0px 0px 15px 15px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.AboutCmd::-webkit-scrollbar {
+    display: none;
 }

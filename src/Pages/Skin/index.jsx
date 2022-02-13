@@ -8,8 +8,8 @@ const Skin = () => {
             <div className="SkinCard" id={skin.id}>
                 <h3 className="SkinName">{skin.name}</h3>
                 <img className="SkinImg" src={skin.img} alt={skin.name} />
-                <div>
-                    <p className="SkinCmd">{skin.cmd}</p>
+                <div className="SkinCmd">
+                    <p>{skin.cmd}</p>
                 </div>
             </div>
         )
