@@ -25,6 +25,13 @@
 .SkinCard {
     background-color: #ccc;
     border-radius: 15px;
+    width: 500px;
+}
+
+@media screen and (max-width: 1200px) {
+    .Skin {
+        grid-template-columns: 500px 500px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -36,6 +43,20 @@
 @media screen and (max-width: 768px) {
     .Skin {
         grid-template-columns: 300px;
+    }
+    
+    .SkinCard {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Skin {
+        grid-template-columns: 250px;
+    }
+
+    .SkinCard {
+        width: 250px;
     }
 }
 

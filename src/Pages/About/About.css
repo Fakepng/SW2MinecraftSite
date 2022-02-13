@@ -28,6 +28,12 @@
     width: 500px;
 }
 
+@media screen and (max-width: 1200px) {
+    .About {
+        grid-template-columns: 500px 500px;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .About {
         grid-template-columns: 500px;
@@ -37,6 +43,20 @@
 @media screen and (max-width: 768px) {
     .About {
         grid-template-columns: 300px;
+    }
+
+    .AboutCard {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .About {
+        grid-template-columns: 250px;
+    }
+
+    .AboutCard {
+        width: 250px;
     }
 }
 

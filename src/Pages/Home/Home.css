@@ -31,6 +31,17 @@
     max-width: 1100px;
 }
 
+@media screen and (max-width: 820px) {
+    .Home {
+        font-size: 3rem;
+    }
+
+    .homeContent {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .Home {
         font-size: 2rem;
@@ -41,6 +52,12 @@
     }
 
     .homeContent p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Home {
         font-size: 1.5rem;
     }
 }
