@@ -8,9 +8,10 @@
 
 .About {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 500px 500px 500px;
     width: 80%;
     max-width: 1600px;
+    justify-content: center;
     text-align: center;
     margin: 0 auto;
     grid-gap: 40px;
@@ -29,13 +30,13 @@
 
 @media screen and (max-width: 1000px) {
     .About {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 500px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .About {
-        grid-template-columns: 1fr;
+        grid-template-columns: 300px;
     }
 }
 
