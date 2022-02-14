@@ -56,7 +56,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .Home {
         font-size: 1.5rem;
     }
@@ -69,6 +69,7 @@
 
 .gallery-grid {
     display: grid;
+    justify-content: center;
     gap: 0.5rem;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     padding-bottom: 20px;
