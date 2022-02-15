@@ -24,6 +24,11 @@
     padding: 10px;
 }
 
+.centerandpadding {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 .lds-roller {
     display: inline-block;
     position: relative;

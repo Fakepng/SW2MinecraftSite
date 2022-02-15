@@ -29,9 +29,12 @@ const PlayerList = () => {
         loading ? <div className="Player">
             <div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
         </div> :
-        <div className="Player">
-            {playersList}
+        <>
+        <div>
+            {players.length > 0 ? <><h1 className="centerandpadding">There is {players.length} online</h1> <div className="Player">{playersList}</div></> :
+            <h1 className="centerandpadding">No player is online</h1>}
         </div>
+        </>
     )
 }
 
