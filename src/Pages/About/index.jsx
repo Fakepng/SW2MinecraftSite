@@ -5,7 +5,7 @@ import './About.css'
 const About = () => {
     const aboutList = AboutList.map(about => {
         return (
-            <div className="AboutCard" id={about.id}>
+            <div className="AboutCard" key={about.id}>
                 <h3 className="AboutName">{about.name}</h3>
                 <img className="AboutImg" src={about.img} alt={about.name} />
                 <div>

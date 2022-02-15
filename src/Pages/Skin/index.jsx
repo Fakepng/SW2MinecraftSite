@@ -8,7 +8,7 @@ const Skin = () => {
     const skinList = SkinList.map(skin => {
         new ClipboardJS(".button");
         return (
-            <div className="SkinCard" id={skin.id}>
+            <div className="SkinCard" key={skin.id}>
                 <h3 className="SkinName">{skin.name}</h3>
                 <img className="SkinImg" src={skin.img} alt={skin.name} />
                 <div className="SkinCmdDiv">
