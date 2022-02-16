@@ -5,11 +5,12 @@ import './About.css'
 const About = () => {
     const aboutList = AboutList.map(about => {
         return (
-            <div className="AboutCard" key={about.id}>
+            <div className="AboutCard" key={about.name}>
                 <h3 className="AboutName">{about.name}</h3>
-                <img className="AboutImg" src={about.img} alt={about.name} />
-                <div>
-                    <p className="AboutCmd">{about.pos}</p>
+                <img className="AboutImg" src={`https://minotar.net/armor/body/${about.name}/100.png`} alt={about.name} />
+                <div className="AboutCmd">
+                    <h2 className="real">{about.real}</h2>
+                    <p>{about.pos}</p>
                 </div>
             </div>
         )
