@@ -8,7 +8,9 @@ const PlayerList = () => {
     async function getPlayers() {
         const response = await fetch('https://api.mcsrvstat.us/2/sw2.fakepng.com');
         const responseJson = await response.json();
-        setPlayers(responseJson.players.list);
+        if (responseJson.players.list != null) {
+            setPlayers(responseJson.players.list);
+        };
         setLoading(false);
     }
 
