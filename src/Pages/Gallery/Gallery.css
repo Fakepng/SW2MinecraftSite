@@ -7,6 +7,6 @@
     display: grid;
     justify-content: center;
     gap: 0.5rem;
-    padding: 70px 0.5rem 20px 0.5rem;
+    padding: calc(60px + 0.5rem) 0.5rem 0.5rem 0.5rem;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 }
