@@ -6,11 +6,9 @@ const PlayerList = () => {
     const [players, setPlayers] = useState([]);
 
     async function getPlayers() {
-        const response = await fetch('https://api.mcsrvstat.us/2/sw2.fakepng.com');
+        const response = await fetch('https://api.fakepng.com/minecraft');
         const responseJson = await response.json();
-        if (responseJson.players.list != null) {
-            setPlayers(responseJson.players.list);
-        };
+        setPlayers(responseJson.players);
         setLoading(false);
     }
 
