@@ -36,8 +36,24 @@ const PlayerList = () => {
         </div> :
             <>
                 <div>
-                    {players.length > 0 ? <><h1 className="centerandpadding">{players.length} online<div className="reloadbutton" onClick={() => setReload(true)}>Reload</div></h1> <div className="Player">{playersList}</div></> :
-                        <h1 className="centerandpadding">No player is online<div className="reloadbutton" onClick={() => setReload(true)}>Reload</div></h1>}
+                    {players.length > 0 ?
+                        <>
+                            <div>
+                                <h1 className="centerandpadding">{players.length} online</h1>
+                            </div>
+                            <div className="Player">{playersList}</div>
+                            <div className="centerandpadding">
+                                <button className="reloadbutton" onClick={() => setReload(true)}>Reload</button>
+                            </div>
+                        </> :
+                        <>
+                            <div>
+                                <h1 className="centerandpadding">No player is online</h1>
+                            </div>
+                            <div className="centerandpadding">
+                                <button className="reloadbutton" onClick={() => setReload(true)}>Reload</button>
+                            </div>
+                        </>}
                 </div>
             </>
     )
