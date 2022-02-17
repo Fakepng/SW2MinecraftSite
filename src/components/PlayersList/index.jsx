@@ -4,6 +4,7 @@ import './PlayersList.css'
 const PlayerList = () => {
     const [loading, setLoading] = useState(true);
     const [players, setPlayers] = useState([]);
+    const [reload, setReload] = useState(false);
 
     async function getPlayers() {
         const response = await fetch('https://api.fakepng.com/minecraft');
@@ -13,8 +14,12 @@ const PlayerList = () => {
     }
 
     useEffect(() => {
-        getPlayers();
-    }, []);
+        setLoading(true);
+        setReload(false);
+        if (!reload) {
+            getPlayers();
+        }
+    }, [reload]);
 
     const playersList = players.map(player => {
         return (
@@ -31,8 +36,8 @@ const PlayerList = () => {
         </div> :
             <>
                 <div>
-                    {players.length > 0 ? <><h1 className="centerandpadding">{players.length} online</h1> <div className="Player">{playersList}</div></> :
-                        <h1 className="centerandpadding">No player is online</h1>}
+                    {players.length > 0 ? <><h1 className="centerandpadding">{players.length} online<div className="reloadbutton" onClick={() => setReload(true)}>Reload</div></h1> <div className="Player">{playersList}</div></> :
+                        <h1 className="centerandpadding">No player is online<div className="reloadbutton" onClick={() => setReload(true)}>Reload</div></h1>}
                 </div>
             </>
     )
