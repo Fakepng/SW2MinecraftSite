@@ -17,6 +17,13 @@
 .homeContent {
     height: 100%;
     min-height: 80vh;
+    color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+    .homeContent {
+        color: #fff;
+    }
 }
 
 .homeContent h2 {

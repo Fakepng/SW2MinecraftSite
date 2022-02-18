@@ -66,3 +66,22 @@
 .AboutCmd::-webkit-scrollbar {
     display: none;
 }
+
+@media (prefers-color-scheme: dark) {
+    .AboutTitle {
+        color: #fff;
+    }
+
+    .AboutCard {
+        background-color: #242526;
+    }
+
+    .AboutName {
+        color: #fff;
+    }
+
+    .AboutCmd {
+        color: #fff;
+        background-color: #3A3B3C;
+    }
+}

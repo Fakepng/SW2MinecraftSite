@@ -20,6 +20,7 @@
 
 .SkinName {
     font-size: 2rem;
+    color: #000;
 }
 
 .SkinCard {
@@ -83,6 +84,10 @@
     background-color: #aaa;
 }
 
+.copybutton {
+    color: #000;
+}
+
 .SkinCmd {
     display: flex;
     font-size: 2rem;
@@ -99,4 +104,35 @@
 
 .SkinCmd::-webkit-scrollbar {
     display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    .SkinTitle {
+        color: #fff;
+    }
+
+    .SkinCard {
+        background-color: #242526;
+    }
+
+    .SkinName {
+        color: #fff;
+    }
+
+    .SkinCmd {
+        color: #fff;
+        background-color: #3A3B3C;
+    }
+
+    .button {
+        background-color: #242526;
+    }
+
+    .button:hover {
+        background-color: #4E4F50;
+    }
+
+    .copybutton {
+        color: #fff;
+    }
 }
