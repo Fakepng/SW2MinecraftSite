@@ -23,6 +23,7 @@
 }
 
 .SkinCard {
+    padding-top: 0.5rem;
     background-color: #ccc;
     border-radius: 15px;
     width: 500px;
