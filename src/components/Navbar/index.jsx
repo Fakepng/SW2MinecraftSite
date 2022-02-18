@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Navbar.css';
+import Countdown from './../Countdown';
 import { NavLink } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
@@ -12,6 +13,7 @@ const Navbar = () => {
         <>
             <div className="navbardiv">
                 <NavLink className="navlogo" to="/" exact='true'><img src="/images/server-icon.png" height="60px" alt="Sw2"/></NavLink>
+                <Countdown countdownTimestampMs={1646365200000}/>
                 <header className="navbar">
                     <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/' exact='true'>Home</NavLink></div>
                     <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/gallery'>Gallery</NavLink></div>
