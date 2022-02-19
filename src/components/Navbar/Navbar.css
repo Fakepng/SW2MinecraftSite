@@ -1,5 +1,5 @@
 .navbardiv {
-    background-color: #EA1218;
+    background-color: var(--navbar-background-color);
     height: 60px;
     display: flex;
     width: 100vw;
@@ -30,8 +30,8 @@
 
 .navlink {
     text-decoration: none;
-    color: #fff;
-    background-color: #EA1218; 
+    color: var(--navbar-text-color);
+    background-color: var(--navbar-background-color); 
     padding: 10px 20px;
     border-radius: 15px;
     font-weight: bold;
@@ -39,9 +39,9 @@
 }
 
 .navlink:hover {
-    color: #EA1218;
+    color: var(--navbar-text-color-hover);
     transition: 0.3s ease-in-out;
-    background-color: #fff;
+    background-color: var(--navbar-background-color-hover);
 }
 
 .Mobile {
@@ -49,7 +49,7 @@
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: #EA1218;
+    background-color: var(--navbar-background-color);
     font-size: 2rem;
     text-align: center;
     padding-top: 120px;
@@ -105,7 +105,7 @@
     padding: 10px 20px;
     border-radius: 15px;
     font-weight: bold;
-    background-color: #EA1218;
+    background-color: var(--navbar-background-color);
 }
 
 .mobilelink:hover {
@@ -114,6 +114,6 @@
 }
 
 .active {
-    color: #000;
+    color: var(--navbar-text-color-active);
     transition: 0.3s ease-in-out;
 }

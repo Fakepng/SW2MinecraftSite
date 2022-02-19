@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.css';
 import Countdown from './../Countdown';
+import Darkmode from './../Darkmode';
 import { NavLink } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
@@ -19,6 +20,7 @@ const Navbar = () => {
                     <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/gallery'>Gallery</NavLink></div>
                     <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/skin'>Skin</NavLink></div>
                     <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/about-us'>About US</NavLink></div>
+                    <Darkmode />
                 </header>
                 <div className='MobileDiv' onClick={handleClick}>{
                     click ? <AiOutlineClose className='MobileBar' /> : <FaBars className='MobileBar' />
@@ -29,6 +31,7 @@ const Navbar = () => {
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/gallery'>Gallery</NavLink>
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/skin'>Skin</NavLink>
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/about-us'>About US</NavLink>
+                <Darkmode />
             </div>
         </>
     )

@@ -7,7 +7,7 @@
     font-size: 4rem;
     color: #fff;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-    background-image: url(./images/banner.png);
+    background-image: var(--banner-img);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,6 +17,7 @@
 .homeContent {
     height: 100%;
     min-height: 80vh;
+    color: var(--text-color)
 }
 
 .homeContent h2 {

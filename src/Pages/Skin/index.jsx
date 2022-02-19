@@ -1,7 +1,7 @@
 import React from 'react'
 import SkinList from './../../config/skin'
 import ClipboardJS from "clipboard";
-import { GrCopy } from "react-icons/gr";
+import { AiOutlineCopy } from "react-icons/ai";
 import './Skin.css'
 
 const Skin = () => {
@@ -18,7 +18,7 @@ const Skin = () => {
                         data-clipboard-action="copy"
                         data-clipboard-text={skin.cmd}
                     >
-                        <GrCopy />
+                        <AiOutlineCopy className="copybutton"/>
                     </button>
                 </div>
             </div>

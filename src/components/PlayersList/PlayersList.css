@@ -15,7 +15,7 @@
 }
 
 .PlayerCard {
-    background-color: #ccc;
+    background-color: var(--card-background-color);
     border-radius: 15px;
     width: 200px;
 }
@@ -61,7 +61,7 @@
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: #000;
+    background: var(--text-color);
     margin: -4px 0 0 -4px;
   }
   .lds-roller div:nth-child(1) {
