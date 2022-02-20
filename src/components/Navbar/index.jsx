@@ -31,7 +31,9 @@ const Navbar = () => {
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/gallery'>Gallery</NavLink>
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/skin'>Skin</NavLink>
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/about-us'>About US</NavLink>
-                <Darkmode />
+                <div className="mobilelink" onClick={handleClick}>
+                    <Darkmode />
+                </div>
             </div>
         </>
     )
