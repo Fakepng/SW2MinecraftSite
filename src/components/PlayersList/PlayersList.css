@@ -35,12 +35,12 @@
     padding: 5px;
     margin-bottom: 60px;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .reloadbutton:hover {
-    color: #fff;
-    background-color: #EA1218;
+    color: var(--white);
+    background-color: var(--sw2);
 }
 
 .lds-roller {

@@ -86,7 +86,7 @@
 }
 
 .MobileBar {
-    color: #fff;
+    color: var(--white);
     position: absolute;
     top: 0.9rem;
     right: 1.5rem;
@@ -100,7 +100,7 @@
 
 .mobilelink {
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
     width: auto;
     padding: 10px 20px;
     border-radius: 15px;
