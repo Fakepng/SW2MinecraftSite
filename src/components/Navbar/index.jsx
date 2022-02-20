@@ -20,6 +20,7 @@ const Navbar = () => {
                     <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/gallery'>Gallery</NavLink></div>
                     <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/skin'>Skin</NavLink></div>
                     <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/about-us'>About US</NavLink></div>
+                    {/* <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/contact'>Contact</NavLink></div> */}
                     <Darkmode />
                 </header>
                 <div className='MobileDiv' onClick={handleClick}>{
@@ -31,6 +32,7 @@ const Navbar = () => {
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/gallery'>Gallery</NavLink>
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/skin'>Skin</NavLink>
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/about-us'>About US</NavLink>
+                {/* <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/contact'>Contact</NavLink> */}
                 <div className="mobilelink" onClick={handleClick}>
                     <Darkmode />
                 </div>

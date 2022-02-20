@@ -5,6 +5,7 @@ import Home from './Pages/Home'
 import Gallery from './Pages/Gallery'
 import Skin from './Pages/Skin'
 import AboutUS from './Pages/About'
+import Contact from './Pages/Contact'
 import FourOFour from './Pages/FourOFour'
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/skin" element={<Skin />} />
         <Route path="/about-us" element={<AboutUS />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<FourOFour />} />
       </Routes>
     </>
