@@ -1,0 +1,17 @@
+.Footer {
+    display: flex;
+    background-color: var(--footer-background-color);
+    flex-direction: column;
+    color: var(--text-color);
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.Footer p {
+    font-size: 1rem;
+}
+
+.Footer a {
+    color: var(--creater-text);
+    text-decoration: none;
+}

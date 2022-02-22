@@ -12,12 +12,14 @@
   --grayhighlight: #aaa;
   --graycmd: #eee;
   --sw2: #EA1218;
+  --green: green;
   --img: url(./images/banner-light.png);
 
   --dark: #121212;
   --darker: #333;
   --darkgray: #555;
   --darkgrayhighlight: #777;
+  --greenyellow: greenyellow;
   --darkimg: url(./images/banner-dark.png);
 }
 
@@ -42,6 +44,8 @@ body.light {
   --card-button-color-hover: var(--grayhighlight);
   --card-cmd-color: var(--graycmd);
   --banner-img: var(--img);
+  --footer-background-color: var(--gray);
+  --creater-text: var(--green);
 }
 
 body.dark {
@@ -57,4 +61,6 @@ body.dark {
   --card-button-color-hover: var(--darkgray);
   --card-cmd-color: var(--darkgray);
   --banner-img: var(--darkimg);
+  --footer-background-color: var(--darker);
+  --creater-text: var(--greenyellow);
 }
