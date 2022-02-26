@@ -6,6 +6,7 @@ const FourOFour = () => {
     <div className="FourOFour">
       <h1>404</h1>
       <p>Page Not Found</p>
+      <p className="contactemail">contact@fakepng.com</p>
     </div>
 
   )

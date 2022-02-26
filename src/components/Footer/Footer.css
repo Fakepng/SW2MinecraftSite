@@ -4,7 +4,8 @@
     flex-direction: column;
     color: var(--text-color);
     align-items: center;
-    padding: 0.5rem 0;
+    height: 4.5rem;
+    justify-content: center;
 }
 
 .Footer p {

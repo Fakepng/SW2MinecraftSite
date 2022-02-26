@@ -6,7 +6,9 @@
     height: 100vh;
     font-size: 4rem;
     color: var(--white);
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    /* text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; */
+    -webkit-text-stroke: .1rem black;
+    -webkit-text-fill-color: white;
     background-image: var(--banner-img);
     background-attachment: fixed;
     background-position: center;
