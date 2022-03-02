@@ -5,11 +5,16 @@ const PlayerList = () => {
     const [loading, setLoading] = useState(true);
     const [players, setPlayers] = useState([]);
     const [reload, setReload] = useState(false);
+    const [isError, setError] = useState(false);
 
     async function getPlayers() {
         const response = await fetch('https://api.fakepng.com/minecraft');
         const responseJson = await response.json();
-        setPlayers(responseJson.players);
+        if (responseJson.error) {
+            setError(true);
+        } else {
+            setPlayers(responseJson.players);
+        }
         setLoading(false);
     }
 
@@ -17,6 +22,7 @@ const PlayerList = () => {
         setLoading(true);
         setReload(false);
         if (!reload) {
+            setError(false);
             getPlayers();
         }
     }, [reload]);
@@ -34,8 +40,11 @@ const PlayerList = () => {
         loading ? <div className="Player">
             <div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
         </div> :
-            <>
-                <div>
+            <> {isError ? <div className="Errormessage">
+                <h1>Server is offline</h1>
+                <button className="reloadbutton" onClick={() => setReload(true)}>Reload</button>
+            </div> :
+                <>
                     {players.length > 0 ?
                         <>
                             <div>
@@ -54,7 +63,7 @@ const PlayerList = () => {
                                 <button className="reloadbutton" onClick={() => setReload(true)}>Reload</button>
                             </div>
                         </>}
-                </div>
+                </>}
             </>
     )
 }
