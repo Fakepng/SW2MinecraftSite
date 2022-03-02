@@ -19,6 +19,19 @@
     padding-bottom: 40px;
 }
 
+.LeadAbout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+    width: 90%;
+    max-width: 1600px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    grid-gap: 40px;
+    padding-bottom: 40px;
+}
+
 .AboutName {
     color: var(--text-color);
     font-size: 2rem;

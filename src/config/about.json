@@ -1,4 +1,5 @@
 [
+    2,
     {
         "name": "Fakepng",
         "real": "นายกฤษณ์ เกษมเทวินทร์ 5/17",
@@ -8,6 +9,11 @@
         "name": "_Klah_",
         "real": "นายนรภัทร วัฒนะโชติ 4/17",
         "pos": "Lead Builder"
+    },
+    {
+        "name": "Kin6133",
+        "real": "นายภคินธร พรมงคลสุข 4/15",
+        "pos": "Web Developer"
     },
     {
         "name": "chill_limey",
@@ -32,11 +38,6 @@
     {
         "name": "JaiSanpie",
         "real": "นายณฐพล อนุชาติบุตร 4/17",
-        "pos": "Builder"
-    },
-    {
-        "name": "Kin6133",
-        "real": "นายภคินธร พรมงคลสุข 4/15",
         "pos": "Builder"
     },
     {
