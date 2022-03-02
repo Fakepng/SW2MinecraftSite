@@ -11,7 +11,8 @@
 }
 
 .PlayerName {
-    font-size: 2rem;
+    width: 200px;
+    font-size: min(1vw, 2rem);
 }
 
 .PlayerCard {
@@ -41,6 +42,13 @@
 .reloadbutton:hover {
     color: var(--white);
     background-color: var(--sw2);
+}
+
+.Errormessage {
+    color: var(--sw2);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .lds-roller {
