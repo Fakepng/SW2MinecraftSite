@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <>
             <div className="navbardiv">
-                <NavLink className="navlogo" to="/" exact='true'><img src="/images/server-icon.png" height="60px" alt="Sw2"/></NavLink>
+                <NavLink className="navlogo" to="/" exact='true'><img src="/images/SW2VWLogo.svg" height="60px" alt="Sw2"/></NavLink>
                 <Countdown countdownTimestampMs={1646365200000}/>
                 <header className="navbar">
                     <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/' exact='true'>Home</NavLink></div>
