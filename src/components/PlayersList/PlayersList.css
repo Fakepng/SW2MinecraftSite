@@ -11,8 +11,11 @@
 }
 
 .PlayerName {
+    display: flex;
     width: 200px;
-    font-size: min(1vw, 2rem);
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
 }
 
 .PlayerCard {
