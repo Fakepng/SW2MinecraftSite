@@ -1,5 +1,5 @@
 [
-    2,
+    3,
     {
         "name": "Fakepng",
         "real": "นายกฤษณ์ เกษมเทวินทร์ 5/17",
@@ -9,6 +9,11 @@
         "name": "_Klah_",
         "real": "นายนรภัทร วัฒนะโชติ 4/17",
         "pos": "Lead Builder"
+    },
+    {
+        "name": "DShiru",
+        "real": "นายเศรษฐธรรศ กิจกาญจนารัตน์ 5/17",
+        "pos": "Lead Skin Designer"
     },
     {
         "name": "Kin6133",
@@ -23,11 +28,6 @@
     {
         "name": "Chiteter",
         "real": "นายวัชรินทร์ ผาเจริญ 4/17",
-        "pos": "Builder"
-    },
-    {
-        "name": "DShiru",
-        "real": "นายเศรษฐธรรศ กิจกาญจนารัตน์ 5/17",
         "pos": "Builder"
     },
     {
