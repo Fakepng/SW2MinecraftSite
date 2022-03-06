@@ -16,12 +16,12 @@
     align-items: center;
     margin: 0 auto;
     grid-gap: 40px;
-    padding-bottom: 40px;
+    padding: 40px 0;
 }
 
 .LeadAbout {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 600px));
     width: 90%;
     max-width: 1600px;
     justify-content: center;
