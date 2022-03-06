@@ -65,3 +65,26 @@
         font-size: 1.5rem;
     }
 }
+
+.java { grid-area: java; text-align: right;}
+.javaip { grid-area: javaip; text-align: left;}
+.bedrock { grid-area: bedrock; text-align: right;}
+.bedrockip { grid-area: bedrockip; text-align: left;}
+.bedrockport { grid-area: bedrockport; text-align: right;}
+.bedrockPortno { grid-area: bedrockPortno; text-align: left;}
+
+.serverip {
+    display: grid;
+    grid-template-areas: "java javaip" "bedrock bedrockip" "bedrockport bedrockPortno";
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+    column-gap: 1em;
+    margin-bottom: 4em;
+}
+
+.serverip > p {
+    font-size: 1.5rem;
+    padding: 0;
+    width: 100%;
+}

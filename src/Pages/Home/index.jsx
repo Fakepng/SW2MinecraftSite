@@ -12,6 +12,11 @@ const Home = () => {
       <div className="homeContent">
         <h2>SW2 Virtual คืออะไร</h2>
         <p>&emsp;&emsp;SW2 Virtual คือโลกเสมือนที่จำลองโรงเรียนสตรีวิทยา ๒ ในพระราชูปถัมภ์ฯ ไว้ในเกม Minecraft ด้วยขนาด 1:1 เมื่อเทียบกับขนาดจริง</p>
+        <div className='serverip'>
+          <p className='java'>Java IP:</p><p className='javaip'>sw2.fakepng.com</p>
+          <p className='bedrock'>Bedrock IP:</p><p className='bedrockip'>bedrock.fakepng.com</p>
+          <p className='bedrockport'>Bedrock Port:</p><p className='bedrockPortno'>39734</p>
+        </div>
         <PlayersList />
       </div>
     </>
