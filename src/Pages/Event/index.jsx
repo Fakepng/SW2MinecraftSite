@@ -3,11 +3,11 @@ import { NavLink } from 'react-router-dom';
 import MiniGameList from './../../config/minigame'
 import './Minigame.css'
 
-const MiniGame = () => {
+const Event = () => {
     const minigameList = MiniGameList.map(games => {
         return (
             <div key={games.name}>
-                <NavLink className='MinigameLink' to={`/mini-game/${games.link}`}>
+                <NavLink className='MinigameLink' to={`/event/${games.link}`}>
                     <div className="MinigameCard">
                         <h3 className="MinigameName">{games.name}</h3>
                         <img className="MinigameImg" src={`/images/games/${games.img}`} alt={games.name} />
@@ -27,4 +27,4 @@ const MiniGame = () => {
     )
 }
 
-export default MiniGame
+export default Event

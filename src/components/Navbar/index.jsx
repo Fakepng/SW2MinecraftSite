@@ -19,7 +19,7 @@ const Navbar = () => {
                     <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/' exact='true'>Home</NavLink></div>
                     <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/gallery'>Gallery</NavLink></div>
                     <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/skin'>Skin</NavLink></div>
-                    <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/mini-game'>Mini Game</NavLink></div>
+                    <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/event'>Event</NavLink></div>
                     <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/about-us'>About US</NavLink></div>
                     {/* <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/contact'>Contact</NavLink></div> */}
                     <Darkmode />
@@ -32,7 +32,7 @@ const Navbar = () => {
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/' exact='true'>Home</NavLink>
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/gallery'>Gallery</NavLink>
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/skin'>Skin</NavLink>
-                <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/mini-game'>Mini Game</NavLink>
+                <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/event'>Event</NavLink>
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/about-us'>About US</NavLink>
                 {/* <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/contact'>Contact</NavLink> */}
                 <div className="mobilelink" onClick={handleClick}>
