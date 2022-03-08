@@ -1,5 +1,5 @@
 [
-    4,
+    4,1,
     {
         "name": "Fakepng",
         "real": "นายกฤษณ์ เกษมเทวินทร์ 6/17",
@@ -11,19 +11,14 @@
         "pos": "Lead Builder"
     },
     {
-        "name": "SSRa1n",
-        "real": "นายภูกวิน ศรีรุ่งเรืองชัย",
-        "pos": "Lead Resources Pack Maker"
-    },
-    {
-        "name": "podsawee",
-        "real": "นายพศวีร์ วนาธรรม",
-        "pos": "AC Partner"
-    },
-    {
         "name": "Kin6133",
         "real": "นายภคินธร พรมงคลสุข 5/15",
-        "pos": "Web Developer"
+        "pos": "Lead Plugin"
+    },
+    {
+        "name": "SSRa1n",
+        "real": "นายภูกวิน ศรีรุ่งเรืองชัย",
+        "pos": "Lead ResourcesPack Maker"
     },
     {
         "name": "chill_limey",
@@ -74,5 +69,10 @@
         "name": "YoshinoOsu",
         "real": "นายธีร์ธวัช เนื้อทอง 5/2",
         "pos": "Builder"
+    },
+    {
+        "name": "podsawee",
+        "real": "นายพศวีร์ วนาธรรม",
+        "pos": "AC Partner"
     }
 ]

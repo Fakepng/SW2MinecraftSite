@@ -16,7 +16,7 @@
     align-items: center;
     margin: 0 auto;
     grid-gap: 40px;
-    padding: 40px 0;
+    padding-bottom: 2em;
 }
 
 .LeadAbout {
@@ -80,4 +80,13 @@
 
 .AboutCmd::-webkit-scrollbar {
     display: none;
+}
+
+.Teams {
+    display: flex;
+    color: var(--text-color);
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: .5em;
 }
