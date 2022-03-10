@@ -12,7 +12,7 @@ const About = () => {
         return (
             <div className="AboutCard" key={Leadabout.name}>
                 <h3 className="AboutName">{Leadabout.name}</h3>
-                <img className="AboutImg" src={`https://minotar.net/armor/body/${Leadabout.name}/100.png`} alt={Leadabout.name} />
+                <img className="AboutImg" src={`https://minotar.net/armor/body/${Leadabout.id}/100.png`} alt={Leadabout.name} />
                 <div className="AboutCmd">
                     <h2 className="real">{Leadabout.real}</h2>
                     <p>{Leadabout.pos}</p>
@@ -25,7 +25,7 @@ const About = () => {
         return (
             <div className="AboutCard" key={about.name}>
                 <h3 className="AboutName">{about.name}</h3>
-                <img className="AboutImg" src={`https://minotar.net/armor/body/${about.name}/100.png`} alt={about.name} />
+                <img className="AboutImg" src={`https://minotar.net/armor/body/${about.id}/100.png`} alt={about.name} />
                 <div className="AboutCmd">
                     <h2 className="real">{about.real}</h2>
                     <p>{about.pos}</p>
@@ -38,7 +38,7 @@ const About = () => {
         return (
             <div className="AboutCard" key={about.name}>
                 <h3 className="AboutName">{about.name}</h3>
-                <img className="AboutImg" src={`https://minotar.net/armor/body/${about.name}/100.png`} alt={about.name} />
+                <img className="AboutImg" src={`https://minotar.net/armor/body/${about.id}/100.png`} alt={about.name} />
                 <div className="AboutCmd">
                     <h2 className="real">{about.real}</h2>
                     <p>{about.pos}</p>
