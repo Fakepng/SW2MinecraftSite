@@ -11,10 +11,10 @@ const About = () => {
     const LeadaboutList = ListOfLead.map((Leadabout, index) => {
         return (
             <div className="AboutCard" key={Leadabout.name}>
-                <h3 className="AboutName">{Leadabout.name}</h3>
-                <img className="AboutImg" src={`https://minotar.net/armor/body/${Leadabout.id}/100.png`} alt={Leadabout.name} />
-                <div className="AboutCmd">
-                    <h2 className="real">{Leadabout.real}</h2>
+                <h3 className="LeadAboutName">{Leadabout.name}</h3>
+                <img className="LeadAboutImg" src={`https://minotar.net/armor/body/${Leadabout.id}/100.png`} alt={Leadabout.name} />
+                <div className="LeadAboutCmd">
+                    <h2 className="Leadreal">{Leadabout.real}</h2>
                     <p>{Leadabout.pos}</p>
                 </div>
             </div>
@@ -25,7 +25,7 @@ const About = () => {
         return (
             <div className="AboutCard" key={about.name}>
                 <h3 className="AboutName">{about.name}</h3>
-                <img className="AboutImg" src={`https://minotar.net/armor/body/${about.id}/100.png`} alt={about.name} />
+                <img className="AboutImg" src={`https://minotar.net/armor/body/${about.id}/80.png`} alt={about.name} />
                 <div className="AboutCmd">
                     <h2 className="real">{about.real}</h2>
                     <p>{about.pos}</p>
@@ -37,10 +37,10 @@ const About = () => {
     const ThankaboutList = ListOfThanks.map((about, index) => {
         return (
             <div className="AboutCard" key={about.name}>
-                <h3 className="AboutName">{about.name}</h3>
-                <img className="AboutImg" src={`https://minotar.net/armor/body/${about.id}/100.png`} alt={about.name} />
-                <div className="AboutCmd">
-                    <h2 className="real">{about.real}</h2>
+                <h3 className="LeadAboutName">{about.name}</h3>
+                <img className="LeadAboutImg" src={`https://minotar.net/armor/body/${about.id}/100.png`} alt={about.name} />
+                <div className="LeadAboutCmd">
+                    <h2 className="Leadreal">{about.real}</h2>
                     <p>{about.pos}</p>
                 </div>
             </div>

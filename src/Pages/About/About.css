@@ -8,14 +8,14 @@
 
 .About {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
     width: 90%;
     max-width: 1600px;
     justify-content: center;
     text-align: center;
     align-items: center;
     margin: 0 auto;
-    grid-gap: 40px;
+    grid-gap: 20px;
     padding-bottom: 2em;
 }
 
@@ -32,9 +32,39 @@
     padding-bottom: 40px;
 }
 
-.AboutName {
+.LeadAboutName {
     color: var(--text-color);
     font-size: 2rem;
+}
+
+.LeadAboutImg {
+    padding: 10px;
+}
+
+.LeadAboutCmd {
+    display: flex;
+    color: var(--text-color);
+    background-color: var(--card-cmd-color);
+    flex-direction: column;
+    height: 4rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-x: scroll;
+    padding: 0rem 1rem;
+    align-items: center;
+    border-radius: 0px 0px 15px 15px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.Leadreal {
+    padding-top: 0.2rem;
+    font-size: 1.5rem;
+}
+
+.AboutName {
+    color: var(--text-color);
+    font-size: 1.5rem;
 }
 
 .AboutCard {
@@ -52,7 +82,7 @@
     color: var(--text-color);
     background-color: var(--card-cmd-color);
     flex-direction: column;
-    height: 4rem;
+    height: 3rem;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow-x: scroll;
@@ -65,20 +95,32 @@
 
 .real {
     padding-top: 0.2rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 @media screen and (max-width: 800px) {
-    .real {
+    .Leadreal {
         font-size: 1.4rem;
+    }
+
+    .real {
+        font-size: .9rem;
     }
 }
 
 .AboutCmd p {
+    font-size: 1rem;
+}
+
+.LeadAboutCmd p {
     font-size: 1.5rem;
 }
 
 .AboutCmd::-webkit-scrollbar {
+    display: none;
+}
+
+.LeadAboutCmd::-webkit-scrollbar {
     display: none;
 }
 
