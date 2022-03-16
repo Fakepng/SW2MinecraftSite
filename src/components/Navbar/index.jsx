@@ -20,7 +20,7 @@ const Navbar = () => {
                     <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/gallery'>Gallery</NavLink></div>
                     <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/skin'>Skin</NavLink></div>
                     <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/event'>Event</NavLink></div>
-                    <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/about-us'>About US</NavLink></div>
+                    <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/team'>Team</NavLink></div>
                     {/* <div className="navbox"><NavLink className="navlink" activeclassname="active" to='/contact'>Contact</NavLink></div> */}
                     <Darkmode />
                 </header>
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/gallery'>Gallery</NavLink>
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/skin'>Skin</NavLink>
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/event'>Event</NavLink>
-                <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/about-us'>About US</NavLink>
+                <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/team'>Team</NavLink>
                 {/* <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/contact'>Contact</NavLink> */}
                 <div className="mobilelink" onClick={handleClick}>
                     <Darkmode />
