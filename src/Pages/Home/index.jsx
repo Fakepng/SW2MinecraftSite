@@ -16,7 +16,7 @@ const Home = () => {
           <p className='Version'>Version:</p><p className='VersionNo'>1.18.1&uArr;</p>
           <p className='java'>Java IP:</p><p className='javaip'>sw2.fakepng.com</p>
           <p className='bedrock'>Bedrock IP:</p><p className='bedrockip'>bedrock.fakepng.com</p>
-          <p className='bedrockport'>Bedrock Port:</p><p className='bedrockPortno'>39734</p>
+          <p className='bedrockport'>Bedrock Port:</p><p className='bedrockPortno'>Ask contact@fakepng.com</p>
         </div>
         <PlayersList />
       </div>
