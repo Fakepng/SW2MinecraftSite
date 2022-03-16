@@ -1,8 +1,8 @@
 import React from 'react'
-import AboutList from './../../config/about'
-import './About.css'
+import AboutList from './../../config/team'
+import './Team.css'
 
-const About = () => {
+const Team = () => {
     const NumberOfLead = AboutList.slice(0, 1);
     const NumberOfThank = AboutList.slice(1, 2);
     const ListOfLead = AboutList.slice(2, 2 + NumberOfLead[0]);
@@ -66,4 +66,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Team

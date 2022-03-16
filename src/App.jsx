@@ -7,7 +7,7 @@ import Gallery from './Pages/Gallery'
 import Skin from './Pages/Skin'
 import Event from './Pages/Event'
 import Games from './Pages/Event/Game'
-import AboutUS from './Pages/About'
+import Team from './Pages/Team'
 import Contact from './Pages/Contact'
 import FourOFour from './Pages/FourOFour'
 
@@ -21,7 +21,7 @@ const App = () => {
         <Route path="/skin" element={<Skin />} />
         <Route path="/event" element={<Event />} />
         <Route path="/event/:id" element={<Games />} />
-        <Route path="/about-us" element={<AboutUS />} />
+        <Route path="/team" element={<Team />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<FourOFour />} status={404}/>
       </Routes>
