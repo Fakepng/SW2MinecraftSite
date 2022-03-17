@@ -2,109 +2,109 @@
     {
         "id": "1",
         "name": "ชุดนักเรียนชาย",
-        "img": "https://sw2.fakepng.com/images/skin/student-b.png",
+        "img": "/images/skin/render/student-b.png",
         "cmd": "/skin https://sw2.fakepng.com/images/skin/student-b.png"
     },
     {
         "id": "2",
         "name": "ชุดนักเรียนหญิงปลาย",
-        "img": "https://sw2.fakepng.com/images/skin/student-g.png",
+        "img": "/images/skin/render/student-g.png",
         "cmd": "/skin https://sw2.fakepng.com/images/skin/student-g.png"
     },
     {
         "id": "3",
         "name": "ชุดนักเรียนหญิงต้น",
-        "img": "https://minotar.net/skin/fakepng",
+        "img": "/images/skin/render/fakepng.png",
         "cmd": "/skin https://minotar.net/skin/fakepng"
     },
     {
         "id": "4",
         "name": "ชุดพละชาย",
-        "img": "https://minotar.net/skin/fakepng",
+        "img": "/images/skin/render/fakepng.png",
         "cmd": "/skin https://minotar.net/skin/fakepng"
     },
     {
         "id": "5",
         "name": "ชุดพละหญิง",
-        "img": "https://minotar.net/skin/fakepng",
+        "img": "/images/skin/render/fakepng.png",
         "cmd": "/skin https://minotar.net/skin/fakepng"
     },
     {
         "id": "6",
         "name": "ชุดรด",
-        "img": "https://minotar.net/skin/fakepng",
+        "img": "/images/skin/render/fakepng.png",
         "cmd": "/skin https://minotar.net/skin/fakepng"
     },
     {
         "id": "7",
         "name": "ชุดนนทรีชาย",
-        "img": "https://minotar.net/skin/fakepng",
+        "img": "/images/skin/render/fakepng.png",
         "cmd": "/skin https://minotar.net/skin/fakepng"
     },
     {
         "id": "8",
         "name": "ชุดนนทรีหญิง",
-        "img": "https://minotar.net/skin/fakepng",
+        "img": "/images/skin/render/fakepng.png",
         "cmd": "/skin https://minotar.net/skin/fakepng"
     },
     {
         "id": "9",
         "name": "ชุดจามจุรีชาย",
-        "img": "https://minotar.net/skin/fakepng",
+        "img": "/images/skin/render/fakepng.png",
         "cmd": "/skin https://minotar.net/skin/fakepng"
     },
     {
         "id": "10",
         "name": "ชุดจามจุรีหญิง",
-        "img": "https://minotar.net/skin/fakepng",
+        "img": "/images/skin/render/fakepng.png",
         "cmd": "/skin https://minotar.net/skin/fakepng"
     },
     {
         "id": "11",
         "name": "ชุดราชาวิดีชาย",
-        "img": "https://minotar.net/skin/fakepng",
+        "img": "/images/skin/render/fakepng.png",
         "cmd": "/skin https://minotar.net/skin/fakepng"
     },
     {
         "id": "12",
         "name": "ชุดราชาวิดีหญิง",
-        "img": "https://minotar.net/skin/fakepng",
+        "img": "/images/skin/render/fakepng.png",
         "cmd": "/skin https://minotar.net/skin/fakepng"
     },
     {
         "id": "13",
         "name": "ชุดยูงทองชาย",
-        "img": "https://minotar.net/skin/fakepng",
+        "img": "/images/skin/render/fakepng.png",
         "cmd": "/skin https://minotar.net/skin/fakepng"
     },
     {
         "id": "14",
         "name": "ชุดยูงทองหญิง",
-        "img": "https://minotar.net/skin/fakepng",
+        "img": "/images/skin/render/fakepng.png",
         "cmd": "/skin https://minotar.net/skin/fakepng"
     },
     {
         "id": "15",
         "name": "ชุดนิโลบลชาย",
-        "img": "https://minotar.net/skin/fakepng",
+        "img": "/images/skin/render/fakepng.png",
         "cmd": "/skin https://minotar.net/skin/fakepng"
     },
     {
         "id": "16",
         "name": "ชุดนิโลบลหญิง",
-        "img": "https://minotar.net/skin/fakepng",
+        "img": "/images/skin/render/fakepng.png",
         "cmd": "/skin https://minotar.net/skin/fakepng"
     },
     {
         "id": "17",
         "name": "ชุดข้าราชการชาย",
-        "img": "https://sw2.fakepng.com/images/skin/govemensuit.png",
+        "img": "/images/skin/render/govemensuit.png",
         "cmd": "/skin https://sw2.fakepng.com/images/skin/govemensuit.png"
     },
     {
         "id": "18",
         "name": "ชุดข้าราชการหญิง",
-        "img": "https://minotar.net/skin/fakepng",
+        "img": "/images/skin/render/fakepng.png",
         "cmd": "/skin https://minotar.net/skin/fakepng"
     }
 ]
