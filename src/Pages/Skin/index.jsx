@@ -1,6 +1,7 @@
 import React from 'react'
 import SkinList from './../../config/skin'
 import ClipboardJS from "clipboard";
+import SkinRender from './../../components/SkinRender'
 import { AiOutlineCopy } from "react-icons/ai";
 import './Skin.css'
 
@@ -10,7 +11,8 @@ const Skin = () => {
         return (
             <div className="SkinCard" key={skin.id}>
                 <h3 className="SkinName">{skin.name}</h3>
-                <img className="SkinImg" src={skin.img} alt={skin.name} />
+                <SkinRender SkinLink={skin.img} SkinHeight={300} SkinWidth={150} />
+                {/* <img className="SkinImg" src={skin.img} alt={skin.name} /> */}
                 <div className="SkinCmdDiv">
                     <p className="SkinCmd">{skin.cmd}</p>
                     <button
@@ -18,7 +20,7 @@ const Skin = () => {
                         data-clipboard-action="copy"
                         data-clipboard-text={skin.cmd}
                     >
-                        <AiOutlineCopy className="copybutton"/>
+                        <AiOutlineCopy className="copybutton" />
                     </button>
                 </div>
             </div>
