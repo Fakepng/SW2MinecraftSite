@@ -11,19 +11,25 @@ const Render = () => {
         <div className="render">
             <form>
                 <label>
+                    <p className="TextLink">Link</p>
                     <input
+                        className="link"
                         type="text"
                         value={skinLink}
                         name="Link" 
                         onChange={(e) => setSkinLink(e.target.value)}
                     />
+                    <p className="TextHeight">Height</p>
                     <input
+                        className="height"
                         type="number"
                         name="Height" 
                         value={height}
                         onChange={(e) => setHeight(e.target.value)}
                     />
+                    <p className="TextWidth">Width</p>
                     <input
+                        className="width"
                         type="number"
                         name="Width" 
                         value={width}
