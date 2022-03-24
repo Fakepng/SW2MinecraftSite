@@ -10,9 +10,9 @@ const Skin = () => {
         return (
             <div className="SkinCard" key={skin.id}>
                 <h3 className="SkinName">{skin.name}</h3>
-                <img className="SkinImg" src={skin.img} alt={skin.name} />
+                <img className="SkinImg" src={`/images/skin/render/${skin.img}`} alt={skin.name} />
                 <div className="SkinCmdDiv">
-                    <p className="SkinCmd">{skin.cmd}</p>
+                    <p className="SkinCmd">{`/skin ${document.location.origin}/images/skin/${skin.img}`}</p>
                     <button
                         className="button"
                         data-clipboard-action="copy"
