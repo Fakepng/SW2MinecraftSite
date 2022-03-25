@@ -19,7 +19,7 @@ const Register = () => {
         if (!emailValidation()) return alert('Please enter a valid email');
         if (!classroomValidation()) return alert('Please enter a valid classroom');
         if (!telValidation()) return alert('Please enter a valid phone number');
-        axios.post(`${api}/user/register`, register).then((response) => {
+        axios.post("https://api.fakepng.com/user/register", register).then((response) => {
             alert(response.data.message);
         })
     }

@@ -10,7 +10,7 @@ const PlayerList = () => {
     const api = process.env.API
 
     async function getPlayers() {
-        const response = await fetch(`${api}/minecraft`);
+        const response = await fetch("https://api.fakepng.com/minecraft");
         const responseJson = await response.json();
         if (responseJson.error) {
             setError(true);
