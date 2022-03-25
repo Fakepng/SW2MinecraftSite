@@ -8,6 +8,7 @@ import Skin from './Pages/Skin'
 import Event from './Pages/Event'
 import Games from './Pages/Event/Game'
 import Team from './Pages/Team'
+import Register from './Pages/Register'
 import Contact from './Pages/Contact'
 import FourOFour from './Pages/FourOFour'
 import Render from './Pages/Render'
@@ -23,9 +24,10 @@ const App = () => {
         <Route path="/event" element={<Event />} />
         <Route path="/event/:id" element={<Games />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/render" element={<Render />} />
-        <Route path="*" element={<FourOFour />} status={404}/>
+        <Route path="*" element={<FourOFour />} status={404} />
       </Routes>
       <Footer />
     </>
