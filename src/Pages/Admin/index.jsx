@@ -12,7 +12,7 @@ const Admin = () => {
     const handleSubmit = async (event) => {
         event.preventDefault();
 
-        const key = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ];
+        const key = [ 16, 11, 13, 12, 9, 6, 3, 4, 1, 8, 2, 10, 5, 14, 15, 7 ];
         const passwordBytes = aesjs.utils.utf8.toBytes(password);
         const aesCtr = new aesjs.ModeOfOperation.ctr(key, new aesjs.Counter(5));
         const encryptedBytes = aesCtr.encrypt(passwordBytes);
