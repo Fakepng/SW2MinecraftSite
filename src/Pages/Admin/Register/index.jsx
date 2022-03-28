@@ -2,23 +2,27 @@ import React, { useState } from 'react'
 import  { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import aesjs from 'aes-js'
+import config from '../../../config/config.json'
 
 const Admin = () => {
     const [user, setUser] = useState("");
     const [password, setPassword] = useState("");
+    const [loading, setLoading] = useState(false);
 
     const navigate = useNavigate();
 
     const handleSubmit = async (event) => {
         event.preventDefault();
+        setLoading(true);
 
-        const key = [ 16, 11, 13, 12, 9, 6, 3, 4, 1, 8, 2, 10, 5, 14, 15, 7 ];
+        const key = config.AES_KEY;
         const passwordBytes = aesjs.utils.utf8.toBytes(password);
         const aesCtr = new aesjs.ModeOfOperation.ctr(key, new aesjs.Counter(5));
         const encryptedBytes = aesCtr.encrypt(passwordBytes);
         const encryptedHex = aesjs.utils.hex.fromBytes(encryptedBytes);
 
-        axios.post("https://api.fakepng.com/admin/register", { user, password: encryptedHex }).then((response) => {
+        axios.post(`${config.API}/admin/register`, { user, password: encryptedHex }).then((response) => {
+            setLoading(false);
             alert(`Welcome ${response.data.user}`);
             navigate('/admin/dashboard');
         })
@@ -43,7 +47,7 @@ const Admin = () => {
                         onChange={(e) => setPassword(e.target.value)}
                     />
                 </label>
-                <input type="submit" />
+                { loading ? <input type="submit" className="disable" disable="true" /> : <input type="submit" /> }
             </form>
         </>
     )
