@@ -19,7 +19,6 @@ const EventQuery = () => {
         axios.get(`${config.API}/user/query`).then((response) => {
             setEventQueryLoading(false);
             setEventQuery(response.data);
-            console.log(response.data);
         })
     }
 
