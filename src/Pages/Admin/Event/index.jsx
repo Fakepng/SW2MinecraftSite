@@ -12,6 +12,7 @@ const EventQuery = () => {
     const [sortBy, setSortBy] = useState('date');
     const [sort, setSort] = useState('asc');
     const [search, setSearch] = useState('');
+    const [hideCheck, setHideCheck] = useState(false);
 
     const handleQuery = () => {
         setEventQueryLoading(true);
@@ -75,6 +76,9 @@ const EventQuery = () => {
                 query.username.toLowerCase().includes(search.toLowerCase()) ||
                 query.activity.toLowerCase().includes(search.toLowerCase()))) return null;
         }
+        if (hideCheck) {
+            if (query.checked) return null;
+        }
 
         return (
             <tr className="query" key={query._id}>
@@ -121,10 +125,10 @@ const EventQuery = () => {
                         <option value="tel">Tel</option>
                         <option value="username">Username</option>
                         <option value="activity">Activity</option>
-                        <option value="checked">Checked</option>
                     </select>
                     {sort === 'desc' ? <button onClick={() => setSort('asc')}>Desc</button> : <button onClick={() => setSort('desc')}>Asc</button>}
                     <button onClick={() => handleSort()}>Sort</button>
+                    {hideCheck ? <button onClick={() => setHideCheck(false)}>Show Check</button> : <button onClick={() => setHideCheck(true)}>Hide Check</button>}
                     <input
                         type="text"
                         name="search"
