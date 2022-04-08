@@ -12,7 +12,7 @@ import Team from './Pages/Team'
 import Register from './Pages/Register'
 import Contact from './Pages/Contact'
 import FourOFour from './Pages/FourOFour'
-import Render from './Pages/Render'
+import Render from './Pages/Admin/Render'
 import SignIn from './Pages/Admin'
 import Dashboard from './Pages/Admin/Dashboard'
 import AdminRegister from './Pages/Admin/Register'
@@ -73,7 +73,7 @@ const App = () => {
         <Route path="/team" element={<Team />} />
         <Route path="/register" element={<Register />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/render" element={<Render />} />
+        <Route path="/admin/render" element={<Render />} />
         <Route path="/admin" element={<SignIn />} />
         <Route path="/admin/dashboard" element={<Dashboard />} />
         <Route path="/admin/register" element={<AdminRegister />} />
