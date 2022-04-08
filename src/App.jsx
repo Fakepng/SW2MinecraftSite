@@ -18,13 +18,13 @@ import Dashboard from './Pages/Admin/Dashboard'
 import AdminRegister from './Pages/Admin/Register'
 import AdminRepass from './Pages/Admin/Repass'
 import EventQuery from './Pages/Admin/Event'
-import { useJwt } from "react-jwt";
+import { isExpired } from "react-jwt";
 
 const App = () => {
   const token = localStorage.getItem("accessToken");
-  const { isExpired } = useJwt(token);
+  const isTokenExpired = isExpired(token);
 
-  if (!token && isExpired) {
+  if (!token || isTokenExpired) {
     return (
       <>
         <Navbar />
