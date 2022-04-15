@@ -25,7 +25,7 @@ const App = () => {
   const token = localStorage.getItem("accessToken");
   const user = localStorage.getItem("user");
   const isTokenExpired = isExpired(token);
-  const tokenOwner = decodeToken(token).username;
+  const tokenOwner = decodeToken(token)?.username;
 
   const navigate = useNavigate();
 
