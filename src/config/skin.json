@@ -12,17 +12,17 @@
     {
         "id": "3",
         "name": "ชุดนักเรียนหญิงต้น",
-        "img": "fakepng.png"
+        "img": "student-g-secondary.png"
     },
     {
         "id": "4",
         "name": "ชุดพละชาย",
-        "img": "fakepng.png"
+        "img": "student-b-sport.png"
     },
     {
         "id": "5",
         "name": "ชุดพละหญิง",
-        "img": "fakepng.png"
+        "img": "student-g-sport.png"
     },
     {
         "id": "6",
@@ -82,11 +82,11 @@
     {
         "id": "17",
         "name": "ชุดข้าราชการชาย",
-        "img": "govemensuit.png"
+        "img": "govemensuit-m.png"
     },
     {
         "id": "18",
         "name": "ชุดข้าราชการหญิง",
-        "img": "fakepng.png"
+        "img": "govemensuit-w.png"
     }
 ]
