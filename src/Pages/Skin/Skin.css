@@ -68,8 +68,8 @@
 
 .SkinCmdDiv {
     display: grid;
-    grid-template-columns: auto 4rem;
-    height: 4rem;
+    grid-template-columns: auto 3rem;
+    height: 3rem;
 }
 
 .button {
@@ -86,7 +86,7 @@
 
 .SkinCmd {
     display: flex;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--text-color);
     background-color: var(--card-cmd-color);
     border-radius: 0px 15px 0px 15px;
