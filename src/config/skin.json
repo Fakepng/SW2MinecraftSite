@@ -26,66 +26,76 @@
     },
     {
         "id": "6",
-        "name": "ชุดรด",
-        "img": "fakepng.png"
+        "name": "ชุดลูกเสือ",
+        "img": "student-b-sport.png"
     },
     {
         "id": "7",
+        "name": "ชุดเนตรนารี",
+        "img": "student-g-sport.png"
+    },
+    {
+        "id": "8",
+        "name": "ชุดรด",
+        "img": "student-tds.png"
+    },
+    {
+        "id": "9",
         "name": "ชุดนนทรีชาย",
         "img": "student-b-nonzee.png"
     },
     {
-        "id": "8",
+        "id": "10",
         "name": "ชุดนนทรีหญิง",
         "img": "student-g-nonzee.png"
     },
     {
-        "id": "9",
+        "id": "11",
         "name": "ชุดจามจุรีชาย",
         "img": "student-b-jamjuree.png"
     },
     {
-        "id": "10",
+        "id": "12",
         "name": "ชุดจามจุรีหญิง",
         "img": "student-g-jamjuree.png"
     },
     {
-        "id": "11",
+        "id": "13",
         "name": "ชุดราชาวดีชาย",
         "img": "student-b-rachawadee.png"
     },
     {
-        "id": "12",
+        "id": "14",
         "name": "ชุดราชาวดีหญิง",
         "img": "student-g-rachawadee.png"
     },
     {
-        "id": "13",
+        "id": "15",
         "name": "ชุดยูงทองชาย",
         "img": "student-b-yoongthong.png"
     },
     {
-        "id": "14",
+        "id": "16",
         "name": "ชุดยูงทองหญิง",
         "img": "student-g-yoongthong.png"
     },
     {
-        "id": "15",
+        "id": "17",
         "name": "ชุดนิโลบลชาย",
         "img": "student-b-nilobol.png"
     },
     {
-        "id": "16",
+        "id": "18",
         "name": "ชุดนิโลบลหญิง",
         "img": "student-g-nilobol.png"
     },
     {
-        "id": "17",
+        "id": "19",
         "name": "ชุดข้าราชการชาย",
         "img": "govemensuit-m.png"
     },
     {
-        "id": "18",
+        "id": "20",
         "name": "ชุดข้าราชการหญิง",
         "img": "govemensuit-w.png"
     }
